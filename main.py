@@ -33,8 +33,6 @@ def processCommand(c):
         webbrowser.open("https://youtube.com")
     elif "open facebook" in c.lower():
         webbrowser.open("https://facebook.com")
-    elif "open porn" in c.lower():
-        webbrowser.open("https://www.xnxx.com/")
     elif c.lower().startswith("play"):
         song=c.lower().split(" ")[1]
         link=musiclibrary.music[song]

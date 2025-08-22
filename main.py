@@ -10,7 +10,7 @@ tts=pyttsx3.init()
 def speak(text):
     tts.say(text)
     tts.runAndWait()
-newsapi="f90cf125b1c34f55bff68962ada45139"
+newsapi="#####################################"
 def ask_ollama(prompt):
     try:
         res = requests.post("http://localhost:11434/api/generate",
